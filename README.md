@@ -4,9 +4,10 @@
 - `python -m venv myenv`
 
 ### Instaling the packages
-- `pip install requests`
-<br>
-- `pip install lxml`
+```
+pip install requests
+pip install lxml
+```
 
 ### Explaning the xpath() function
 `new_releases = doc.xpath('//div[@id="tab_newreleases_content"]')[0]`
