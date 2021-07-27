@@ -4,7 +4,7 @@
 - `python -m venv myenv`
 
 ### Instaling the packages
-```
+```python
 pip install requests
 pip install lxml
 ```
