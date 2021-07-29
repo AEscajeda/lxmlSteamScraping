@@ -23,4 +23,4 @@ pip install lxml
 `temp = game.xpath('.//span[contains(@class, "platform_img")]')`
 - `[contains(@class,"platform_img")]` - indicates that we are looking for a element that has the specified class, but it could has more aditional classes
 
-##### These proyect is completely based on the [Yasoob Khalid´s youtube tutorial](https://www.youtube.com/watch?v=5N066ISH8og&t=222s&ab_channel=YasoobKhalid)
+##### These proyect is completely based on the [Yasoob Khalid´s youtube tutorial](https://www.youtube.com/watch?v=5N066ISH8og&t=222s&ab_channel=YasoobKhalid). I just added the pandas dataframe creation

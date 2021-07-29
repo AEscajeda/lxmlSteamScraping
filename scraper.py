@@ -1,5 +1,7 @@
-import requests
+import pandas as pd
 import lxml.html
+import requests
+
 
 # Obtaning the content from the website
 html = requests.get("https://store.steampowered.com/explore/new/")
@@ -48,4 +50,6 @@ for info in zip(titles, prices, tags, total_platforms):
     resp["platforms"] = info[3]
     output.append(resp)
 
-print(output)
+# Setting our info in a pandas DataFrame
+df = pd.DataFrame(output)
+print(df)
